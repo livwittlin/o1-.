@@ -68,3 +68,13 @@ def cvsf():
             print("the temperature in celsius is " + str (round(f, 2)))
             r = 0
 cvsf()
+
+def task4():
+    a=input("choose a letter")
+    hello="hello"
+    if a in hello:
+        return "true"
+    if a not in hello:
+        return "false"
+
+print(task4)

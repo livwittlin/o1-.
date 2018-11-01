@@ -1,6 +1,23 @@
-def hello_print(first_half):
-    second_half = "World"
+import random
+a=0
+time = 0
 
-    return first_half+second_half
+def first():
+    x = random.randint(1,5)
+    time.sleep(x)
+    print("boo")
 
-print(hello_print("hello"))
+
+
+def trick_treat():
+    a=random.randint(1, 2)
+    if a == 1:
+        return "trick"
+    if a == 2:
+        return "treat"
+
+print(trick_treat())
+
+def three(string):
+    return "spooky " + string
+print(three())
